@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <text x="0" y="15" font-size="15" fill="url(#gradient)" font-family="Courier New">Anthony Nwafor</text>
+            
+
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/__Anthony__Nwafor__Resume____.pdf" target="_blank">Resume</a></li>
+                <li>
+                    <label class="theme-switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I am a Senior Computer Science & Mathematics student at Mississippi Valley State University</p>
+        <p> I am passionate about artificial intelligence, machine learning, software development, and many others</p>
+
+    <section id="portfolio" class="fade-in">
+        <h2>My Work</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item material-card">
+                <a href="https://github.com/7bbg/ML_ALGO" target="_blank">
+                    <h3>Machine Learning Algorithms from Scratch</h3>
+                </a>
+                <p><strong>Technologies:</strong> Python, Cvxopt, Pandas, Numpy, Matplotlib</p>
+                <p><strong>Year:</strong> 2025</p>
+                <p>Implemented and optimized machine learning algorithms like SGD, SVM, PCA, Random Forests, and RNNs from scratch.</p>
+            </div>
+            <div class="portfolio-item material-card">
+                <a href="https://github.com/7bbg/SDE-Portfolio-Optimizer" target="_blank">
+                    <h3>Portfolio Optimization with Stochastic Control</h3>
+                </a>
+                <p><strong>Technologies:</strong> Python, Javascript, Flask, Scipy, Electronjs</p>
+                <p><strong>Date:</strong> January 2025</p>
+                <p>Developed a portfolio optimization model with Monte Carlo simulations and built an interactive dashboard for performance visualization.</p>
+            </div>
+            <div class="portfolio-item material-card">
+                <a href="https://github.com/7bbg/HFT-system" target="_blank">
+                    <h3>High-Frequency Trading System</h3>
+                </a>
+                <p><strong>Technologies:</strong> Python, Flask, Tensorflow, Keras, Yfinance, Streamlit</p>
+                <p><strong>Date:</strong> January 2025</p>
+                <p>Built a trading system for real-time stock analysis using LSTM models and a Streamlit dashboard for visualization.</p>
+            </div>
+            <div class="portfolio-item material-card">
+                <a href="https://github.com/repo-[]" target="_blank">
+                    <h3>Operating System - Enigma</h3>
+                </a>
+                <p><strong>Technologies:</strong> C, C++, Python, ASM</p>
+                <p><strong>Date:</strong> Aug 2023 – Present</p>
+                <p>Designed a machine learning-powered OS for resource optimization, achieving significant performance improvements.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out!</p>
+        <form action="https://formspree.io/f/xldjyllw" method="POST" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            
+            <button type="submit" class="contact-button">Send Message</button>
+        </form>
+        or <p>Email: <a href="mailto:anthonynwafor261@gmail.com">anthonynwafor261@gmail.com</a></p>
+
+    </section>
+    
+    <footer>
+        <p>&copy;  <span id="current-year"></span>  <span>My Portfolio</span>. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://github.com/7bbg" target="_blank" class="footer-button">GitHub</a>
+            <a href="https://linkedin.com/in/anthony-nwafor-9b8055236" target="_blank" class="footer-button">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
